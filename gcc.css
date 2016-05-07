@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body {
+  background-color: white;
+}
+
+#dashboard {
+  font-family: 'Open Sans';
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.tile {
+  display: block;
+  float: left;
+  color: white;
+}
+.title {
+  text-align: left;
+  line-height: 1em;
+  padding: 2%;
+  height: 25%;
+}
+.date {
+  text-align: center;
+  line-height: 1.5em;
+  height: 55%;
+}
+.days {
+  text-align: right;
+  line-height: 1em;
+  padding: 2%;
+}
+#caption {
+  line-height: 1.2em;
+}
+#caption p {
+  padding: 2%;
+}
+#header {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0 8px;
+}
+#selectbox {
+}
+#credit {
+  font-size: 50%;
+  text-align: right;
+}
+#credit a {
+  color: white;
+}
+
+#caption {
+  background-color: #34495e;
+}

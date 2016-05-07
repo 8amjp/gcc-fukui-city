@@ -102,7 +102,7 @@ $(function() {
   function getData() {
     var deferred = new $.Deferred;
     $.ajax(
-      "./gomisyusyubi_20150302.json.php",
+      "./json.php",
       {
         dataType: "jsonp",
         jsonpCallback: "gomisyusyubi_20150302"
